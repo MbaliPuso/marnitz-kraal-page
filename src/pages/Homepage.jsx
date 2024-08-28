@@ -9,7 +9,6 @@ import Events from '../components/Events';
 import BookTable from '../components/BookTable';
 import Testimonials from '../components/Testimonials';
 import Gallery from '../components/Gallery';
-import Chefs from '../components/Chefs';
 import ContactUs from '../components/ContactUs';
 import Footer from '../components/Footer';
 
@@ -26,7 +25,6 @@ const Homepage = () => {
         <BookTable />
         <Testimonials />
         <Gallery />
-        <Chefs />
         <ContactUs />
         <Footer />
         </>

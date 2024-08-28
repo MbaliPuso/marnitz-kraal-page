@@ -10,7 +10,7 @@ const Testimonials = () => {
           <p>What they're saying about us</p>
         </div>
 
-        <Carousel interval={5000} controls={false} indicators={true} fade>
+        <Carousel interval={5000} controls={false} indicators={false} fade>
           <Carousel.Item>
             <Row>
               <Col md={4}>

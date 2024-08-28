@@ -1,4 +1,5 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const Events = () => {
     return (
@@ -9,13 +10,16 @@ const Events = () => {
               <h2>Events</h2>
               <p>Organize Your Events in our Restaurant</p>
             </div>
-            <div
+            {/* carousel begins */}
+            <Swiper
               className="events-slider swiper-container"
-              data-aos="fade-up"
-              data-aos-delay={100}
+              // data-aos="fade-up"
+              // data-aos-delay={100}
+              slidesPerView={1} 
+              spaceBetween={30}
             >
               <div className="swiper-wrapper">
-                <div className="swiper-slide">
+                <SwiperSlide className="swiper-slide">
                   <div className="row event-item">
                     <div className="col-lg-6">
                       <img
@@ -57,9 +61,9 @@ const Events = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </SwiperSlide>
                 {/* End testimonial item */}
-                <div className="swiper-slide">
+                <SwiperSlide className="swiper-slide">
                   <div className="row event-item">
                     <div className="col-lg-6">
                       <img
@@ -101,9 +105,9 @@ const Events = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </SwiperSlide>
                 {/* End testimonial item */}
-                <div className="swiper-slide">
+                <SwiperSlide className="swiper-slide">
                   <div className="row event-item">
                     <div className="col-lg-6">
                       <img
@@ -145,11 +149,11 @@ const Events = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </SwiperSlide>
                 {/* End testimonial item */}
               </div>
               <div className="swiper-pagination" />
-            </div>
+            </Swiper>
           </div>
         </section>
       </>

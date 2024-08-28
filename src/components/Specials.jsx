@@ -18,12 +18,12 @@ const Specials = () => {
                     data-bs-toggle="tab"
                     href="#tab-1"
                   >
-                    Modi sit est
+                    Wings Wednesday
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" data-bs-toggle="tab" href="#tab-2">
-                    Unde praesentium sed
+                    Weekday Specials
                   </a>
                 </li>
                 <li className="nav-item">

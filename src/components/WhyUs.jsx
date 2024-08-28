@@ -1,42 +1,53 @@
-import React from 'react';
+import React from "react";
 
 const WhyUs = () => {
-    return (
-        <>
-        <section id="why-us" className="why-us">
-  <div className="container" data-aos="fade-up">
-    <div className="section-title">
-      <h2>Why Us</h2>
-      <p>Why Choose Our Restaurant</p>
-    </div>
-    <div className="row">
-      <div className="col-lg-4">
-        <div className="box" data-aos="zoom-in" data-aos-delay={100}>
-          <span>01</span>
-          <h4>Lorem Ipsum</h4>
-          <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+  return (
+    <>
+      <section id="why-us" className="why-us">
+        <div className="container" data-aos="fade-up">
+          <div className="section-title">
+            <h2>Why Us</h2>
+            <p>Why Choose Our Lodge</p>
+          </div>
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="box" data-aos="zoom-in" data-aos-delay={100}>
+                <span>01</span>
+                <h4>Location</h4>
+                <p>
+                  Conveniently situated along Tom Burke and Lephalale, near the
+                  Botswana border, offering easy access to a variety of
+                  attractions.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 mt-4 mt-lg-0">
+              <div className="box" data-aos="zoom-in" data-aos-delay={200}>
+                <span>02</span>
+                <h4>Accommodation Options</h4>
+                <p>
+                  We have comfortable cabins for a relaxing stay and camping
+                  facilities available for those seeking a closer connection to
+                  nature.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 mt-4 mt-lg-0">
+              <div className="box" data-aos="zoom-in" data-aos-delay={300}>
+                <span>03</span>
+                <h4>Amenities</h4>
+                <p>
+                  Enjoy a refreshing drink after a day of exploring at the bar.
+                  Take a dip and cool off in the lodge's pool. Dine at the
+                  on-site restaurant offering delicious meals.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="col-lg-4 mt-4 mt-lg-0">
-        <div className="box" data-aos="zoom-in" data-aos-delay={200}>
-          <span>02</span>
-          <h4>Repellat Nihil</h4>
-          <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
-        </div>
-      </div>
-      <div className="col-lg-4 mt-4 mt-lg-0">
-        <div className="box" data-aos="zoom-in" data-aos-delay={300}>
-          <span>03</span>
-          <h4> Ad ad velit qui</h4>
-          <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-        </>
-    );
+      </section>
+    </>
+  );
 };
 
 export default WhyUs;

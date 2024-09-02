@@ -13,8 +13,10 @@ const AboutUs = () => {
             >
               <div className="about-img">
                 <img
-                  src="assets/img/about.jpg"
+                  src="assets/img/about.jpeg"
                   alt="restuarantly about us pictures"
+                  width={688}
+                  height={512}
                 />
               </div>
             </div>

@@ -7,7 +7,6 @@ import Menu from '../components/Menu';
 import Specials from '../components/Specials';
 import Events from '../components/Events';
 import BookTable from '../components/BookTable';
-import Testimonials from '../components/Testimonials';
 import Gallery from '../components/Gallery';
 import ContactUs from '../components/ContactUs';
 import Footer from '../components/Footer';
@@ -23,7 +22,6 @@ const Homepage = () => {
         <Specials />
         <Events />
         <BookTable />
-        <Testimonials />
         <Gallery />
         <ContactUs />
         <Footer />

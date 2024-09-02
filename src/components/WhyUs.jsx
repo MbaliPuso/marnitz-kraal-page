@@ -37,8 +37,7 @@ const WhyUs = () => {
                 <span>03</span>
                 <h4>Amenities</h4>
                 <p>
-                  Enjoy a refreshing drink after a day of exploring at the bar.
-                  Take a dip and cool off in the lodge's pool. Dine at the
+                  Enjoy a refreshing drink after a day of exploring at the bar. Dine at the
                   on-site restaurant offering delicious meals.
                 </p>
               </div>

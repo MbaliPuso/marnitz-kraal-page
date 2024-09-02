@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../assets/logo.png';
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-3 col-md-6">
                 <div className="footer-info">
-                  <h3>Restaurantly</h3>
+                  <img src={logo} alt="Marnitz Kraal logo" width={50}/>
                   <p>
                     A108 Adam Street <br />
                     NY 535022, USA
@@ -94,7 +95,7 @@ const Footer = () => {
                   Tamen quem nulla quae legam multos aute sint culpa legam
                   noster magna
                 </p>
-                <form action method="post">
+                <form action='true' method="post">
                   <input type="email" name="email" />
                   <input type="submit" defaultValue="Subscribe" />
                 </form>

@@ -15,21 +15,21 @@ const Gallery = () => {
       <div className="col-lg-3 col-md-4">
         <div className="gallery-item">
           <a href="assets/img/gallery/gallery-1.jpg" className="gallery-lightbox" data-gall="gallery-item">
-            <img src="assets/img/gallery/gallery-1.jpg" alt='gallery 1' className="img-fluid" />
+            <img src="assets/img/gallery/Photos-02.jpg" alt='gallery 1' className="img-fluid" />
           </a>
         </div>
       </div>
       <div className="col-lg-3 col-md-4">
         <div className="gallery-item">
           <a href="assets/img/gallery/gallery-2.jpg" className="gallery-lightbox" data-gall="gallery-item">
-            <img src="assets/img/gallery/gallery-2.jpg" alt='gallery 2' className="img-fluid" />
+            <img src="assets/img/gallery/Photos-03.jpg" alt='gallery 2' className="img-fluid" />
           </a>
         </div>
       </div>
       <div className="col-lg-3 col-md-4">
         <div className="gallery-item">
           <a href="assets/img/gallery/gallery-3.jpg" className="gallery-lightbox" data-gall="gallery-item">
-            <img src="assets/img/gallery/gallery-3.jpg" alt='gallery 3' className="img-fluid" />
+            <img src="assets/img/gallery/Photos-05.jpg" alt='gallery 3' className="img-fluid" />
           </a>
         </div>
       </div>
